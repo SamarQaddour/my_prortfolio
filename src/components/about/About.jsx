@@ -1,6 +1,7 @@
 import React from "react";
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+// import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/samar1.jpg'
 import {FaAward,FaUsers} from 'react-icons/fa'
 import {AiTwotoneFolderOpen} from 'react-icons/ai'
 const About = () => {
