@@ -33,7 +33,7 @@
 }
 .exprience__details__icon{
     margin-top: 6px;
-    color:#6fcde3
+    color:var(--color-primary)
 }
 /* screen medium */
 @media screen and (max-width: 1024px) {
