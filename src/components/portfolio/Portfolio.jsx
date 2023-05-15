@@ -3,7 +3,7 @@ import './portfolio.css';
 import chat from '../../assets/chat.png';
 import websiteDefi from '../../assets/defiwebsite.png';
 import shop from '../../assets/shop.png';
-import portolio from '../../assets/protfolio.png';
+import portolio from '../../assets/portfolioNew.png';
 import commerce from '../../assets/commerce_samar.png';
 const Portfolio = () => {
     const data = [
