@@ -26,6 +26,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 1.9rem;
+    column-gap: 2.5rem;
 }
 .exprience__details{
     display: flex;
