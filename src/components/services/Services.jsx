@@ -15,31 +15,58 @@ const Services = () => {
                      <div className='service__list'>
                          <li>
                              <BiCheck className='service__list__icon' size={50}/>
-                             <p> used in the graphic, print, and publishing industries
-                                 for previewing layouts and visual mockups.</p>
+                             <p>cutsom css for build responsive website</p>
                          </li>
                      </div>
                         <div className='service__list'>
                          <li>
                              <BiCheck className='service__list__icon' size={50}/>
-                             <p> used in the graphic, print, and publishing industries
-                                 for previewing layouts and visual mockups.</p>
+                             <p>React Router DOM for move different pages</p>
                          </li>
                      </div>
                         <div className='service__list'>
                          <li>
                              <BiCheck className='service__list__icon' size={50}/>
-                             <p> used in the graphic, print, and publishing industries
-                                 for previewing layouts and visual mockups.</p>
+                             <p>use firebase as a backand for build chat application i sign up and do chat between two user.</p>
                          </li>
                      </div>
                         <div className='service__list'>
                          <li>
                              <BiCheck className='service__list__icon' size={50}/>
-                             <p> used in the graphic, print, and publishing industries
-                                 for previewing layouts and visual mockups.</p>
+                             <p> More than one framework of css as tailwindcss and materiel UI </p>
                          </li>
                      </div>
+                    </ul>
+                </article>
+                <article className='service'>
+                 <div className='service__head'>
+                     <h3>Next Project</h3>
+                 </div>
+                    <ul>
+                        <div className='service__list'>
+                            <li>
+                                <BiCheck className='service__list__icon' size={50}/>
+                                <p>Making the site at the forefront of search engines for the services provided by the NEXT framework(search engine optimization).</p>
+                            </li>
+                        </div>
+                        <div className='service__list'>
+                            <li>
+                                <BiCheck className='service__list__icon' size={50}/>
+                                <p>Route(file base) is handled by file system.</p>
+                            </li>
+                        </div>
+                        <div className='service__list'>
+                            <li>
+                                <BiCheck className='service__list__icon' size={50}/>
+                                <p> use redux that components only re-render when their data has actually changed.</p>
+                            </li>
+                        </div>
+                        <div className='service__list'>
+                            <li>
+                                <BiCheck className='service__list__icon' size={50}/>
+                                <p> experience in( Git and Githup), upload and Merge</p>
+                            </li>
+                        </div>
                     </ul>
                 </article>
                 <article className='service'>
@@ -50,64 +77,25 @@ const Services = () => {
                         <div className='service__list'>
                             <li>
                                 <BiCheck className='service__list__icon' size={50}/>
-                                <p> used in the graphic, print, and publishing industries
-                                    for previewing layouts and visual mockups.</p>
+                                <p>bulid eCommerce contain many categories and products.</p>
                             </li>
                         </div>
                         <div className='service__list'>
                             <li>
                                 <BiCheck className='service__list__icon' size={50}/>
-                                <p> used in the graphic, print, and publishing industries
-                                    for previewing layouts and visual mockups.</p>
+                                <p>Add my favorite products inside cart using Redux.</p>
                             </li>
                         </div>
                         <div className='service__list'>
                             <li>
                                 <BiCheck className='service__list__icon' size={50}/>
-                                <p> used in the graphic, print, and publishing industries
-                                    for previewing layouts and visual mockups.</p>
+                                <p>Design of login and signup using validation in regular expression javaScript.</p>
                             </li>
                         </div>
                         <div className='service__list'>
                             <li>
                                 <BiCheck className='service__list__icon' size={50}/>
-                                <p> used in the graphic, print, and publishing industries
-                                    for previewing layouts and visual mockups.</p>
-                            </li>
-                        </div>
-                    </ul>
-                </article>
-                <article className='service'>
-                 <div className='service__head'>
-                     <h3>React Project</h3>
-                 </div>
-                    <ul>
-                        <div className='service__list'>
-                            <li>
-                                <BiCheck className='service__list__icon' size={50}/>
-                                <p> used in the graphic, print, and publishing industries
-                                    for previewing layouts and visual mockups.</p>
-                            </li>
-                        </div>
-                        <div className='service__list'>
-                            <li>
-                                <BiCheck className='service__list__icon' size={50}/>
-                                <p> used in the graphic, print, and publishing industries
-                                    for previewing layouts and visual mockups.</p>
-                            </li>
-                        </div>
-                        <div className='service__list'>
-                            <li>
-                                <BiCheck className='service__list__icon' size={50}/>
-                                <p> used in the graphic, print, and publishing industries
-                                    for previewing layouts and visual mockups.</p>
-                            </li>
-                        </div>
-                        <div className='service__list'>
-                            <li>
-                                <BiCheck className='service__list__icon' size={50}/>
-                                <p> used in the graphic, print, and publishing industries
-                                    for previewing layouts and visual mockups.</p>
+                                <p>Learn mare cutsom css for responsive and design  a suitable form for the site.</p>
                             </li>
                         </div>
                     </ul>
