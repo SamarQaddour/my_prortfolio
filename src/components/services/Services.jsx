@@ -4,8 +4,7 @@ import {BiCheck} from "react-icons/bi";
 const Services = () => {
     return(
         <section id='service'>
-          <h5>What I offer</h5>
-            <h2>Services</h2>
+            <h2>Project experiences</h2>
             <div className='container services__container'>
                 <article className='service'>
                  <div className='service__head'>
