@@ -3,8 +3,8 @@ import './portfolio.css';
 import chat from '../../assets/chat.png';
 import websiteDefi from '../../assets/defiwebsite.png';
 import shop from '../../assets/shop.png';
-import portolio from '../../assets/portfolioNew.png';
-import commerce from '../../assets/commerce_samar.png';
+import portolio from '../../assets/samarP.png';
+import commerce from '../../assets/stylewe.png';
 const Portfolio = () => {
     const data = [
         {
@@ -12,17 +12,18 @@ const Portfolio = () => {
        image:chat,
        title:'Chat_Application',
        github:'https://github.com/SamarQaddour/Chat_Application',
-       demo:'https://chat-application-new94.netlify.app/Login'
+       demo:'https://chat-application-new94.netlify.app'
     },
         {
        id:2,
        image:commerce,
-       title:'Personal protofolio',
-       github:'https://github.com/SamarQaddour/commerce-samar',
-       demo:'https://my-new-commerce.netlify.app/'
+       title:'StyleWe',
+       github:'https://github.com/SamarQaddour/Style_We',
+       demo:'https://stylewecommerce.netlify.app/'
     },
+    
         {
-            id:3,
+        id:3,
        image:websiteDefi,
        title:'Responsive WebSite',
        github:'https://github.com/SamarQaddour/defi',
@@ -49,7 +50,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
          <div className='container protfolio__container'>
              {
-                 data.map(({id,image,title,githup,demo}) => {
+                 data.map(({id,image,title,github,demo}) => {
                return(
                    <article className='portfolio__item'>
                        <div className='portfolio__item__image'>
@@ -57,7 +58,7 @@ const Portfolio = () => {
                        </div>
                        <h3>{title}</h3>
                        <div className='portfolio__item__cta'>
-                           <a href={githup} className='btn'  target='_blank' rel='noreferrer'>Githup</a>
+                           <a href={github} className='btn'  target='_blank' rel='noreferrer'>Githup</a>
                            <a href={demo} className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
                        </div>
                    </article>
